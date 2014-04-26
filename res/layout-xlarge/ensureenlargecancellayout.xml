@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="750dp"
+    android:layout_height="168dp"
+    android:orientation="vertical" xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:background ="@drawable/warningbackgroundxlarge">
+	
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="86dp"
+        android:text="You need at least $200 to enlarge this area"
+    	android:textSize="36dp"
+    	android:singleLine="true"
+    	android:id="@+id/tv"
+    />
+    <RelativeLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="86dp"
+        
+    >
+    <Button
+        android:layout_width="195dp"
+        android:layout_height="86dp"
+        android:layout_gravity="left"
+        android:text="OK"
+        android:textSize="24dp"
+        android:id="@+id/okbutton" 
+        android:layout_centerHorizontal="true"
+    />
+    </RelativeLayout>
+</LinearLayout>

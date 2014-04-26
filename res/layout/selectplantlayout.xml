@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="314dp"
+    android:layout_height="240dp"
+    android:orientation="vertical">  
+    <org.seedsofempowerment.farmsim.SelectPlantSurfaceView 
+        android:id="@+id/view3d"
+        android:layout_width="314dp"
+        android:layout_height="240dp"
+    />
+</LinearLayout>

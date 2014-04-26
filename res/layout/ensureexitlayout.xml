@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="67dp"
+    android:orientation="vertical" xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:background ="@drawable/warningbackgroundnormal">
+	
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="33dp"
+        android:text="Do you really want to exit?"
+    	android:textSize="16dp"
+    	android:singleLine="true"
+    	android:id="@+id/tv" 
+    />
+    <RelativeLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="33dp"
+        
+    >
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:text="OK"
+        android:textSize="12dp"
+        android:id="@+id/okbutton" 
+    />
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="33dp"
+        android:layout_alignParentRight="true"
+        android:text="Cancel"
+        android:textSize="12dp"
+        android:id="@+id/cancelbutton" 
+    />
+    </RelativeLayout>
+</LinearLayout>

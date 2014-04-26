@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="80dp"
+    android:orientation="vertical" xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:background ="@drawable/warningbackgroundnormal">
+	
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="38dp"
+        android:text="Do you want to plant?"
+    	android:textSize="16dp"
+    	android:singleLine="true"
+		android:id="@+id/tv"
+    />
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+    >
+    <Button
+        android:layout_width="63dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:text="OK"
+        android:textSize="12dp"
+        android:id="@+id/okbutton" 
+    />
+    <Button
+        android:layout_width="63dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Back"
+        android:textSize="12dp"
+        android:id="@+id/backbutton" 
+    />
+    <Button
+        android:layout_width="63dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:text="Cancel"
+        android:textSize="12dp"
+        android:id="@+id/cancelbutton" 
+    />
+    </LinearLayout>
+</LinearLayout>
+    

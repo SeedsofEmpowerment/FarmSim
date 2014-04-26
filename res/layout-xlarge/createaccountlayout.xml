@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	android:layout_width = "568dp"
+	android:layout_height = "515dp"
+	android:background ="@drawable/addacountxlarge"
+	android:orientation ="vertical"
+>
+	<ImageView
+		android:layout_width = "568dp"
+		android:layout_height = "32dp"
+	/>
+	<LinearLayout
+		android:layout_width = "wrap_content"
+		android:layout_height = "wrap_content"
+		android:orientation = "horizontal"
+	>
+		<ImageView
+			android:layout_width = "206dp"
+			android:layout_height = "334dp"
+		/>
+		<LinearLayout
+		 	android:layout_width = "wrap_content"
+			android:layout_height = "334dp"
+			android:orientation = "vertical"
+		>
+		 
+			<EditText 
+			 	android:layout_width = "320dp"
+				android:layout_height = "112dp"
+			 	android:id ="@+id/name"
+			 	android:maxLines="1"
+			 	android:imeOptions="actionDone"
+			/>
+			<RadioGroup
+				android:orientation = "horizontal"
+				android:layout_width = "wrap_content"
+				android:layout_height ="100dp"
+				android:id="@+id/gender"
+				android:layout_marginTop="16dp"
+			>
+			<RadioButton
+				android:layout_width = "wrap_content"
+				android:layout_height = "100dp"
+				android:text = "boy"
+				android:id ="@+id/boybutton"
+				android:textSize="36dp"
+			/>
+			<RadioButton
+				android:layout_width = "wrap_content"
+				android:layout_height = "100dp"
+				android:text = "girl"
+				android:id ="@+id/girlbutton"
+				android:textSize="36dp"
+			/>
+			</RadioGroup>
+			<EditText 
+				android:layout_width = "320dp"
+				android:layout_height = "112dp"
+				android:id ="@+id/age"
+				android:inputType = "number"
+				android:maxLines="1"
+				android:imeOptions="actionDone"
+			/>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width = "wrap_content"
+		android:layout_height = "wrap_content"
+		android:orientation = "horizontal"
+	>
+	<ImageView
+		android:layout_width = "wrap_content"
+		android:layout_height = "wrap_content"
+	/>
+	<Button 
+		android:layout_width = "192dp"
+		android:layout_height = "96dp"
+		android:shadowColor = "#2123ffab"
+		android:text = "OK"
+		android:textSize="32dp"
+		android:layout_marginLeft="50dp"
+		android:layout_marginTop="20dp"
+		android:id="@+id/okbutton"
+	/>
+	<Button 
+	  	android:layout_width = "192dp"
+	  	android:layout_height = "96dp"
+	  	android:text = "CANCEL"
+	  	android:textSize="32dp"
+	  	android:layout_marginTop="20dp"
+	  	android:layout_marginLeft="50dp"
+	  	android:id="@+id/cancelbutton"
+	/>
+	</LinearLayout>
+</LinearLayout>
